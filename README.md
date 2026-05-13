@@ -2,10 +2,11 @@
 
 An interactive 2D environmental simulation built in C++ using the legacy `graphics.h` library. The application renders a living village ecosystem complete with dynamic day/night cycles, real-time weather alterations, wave physics, and procedural object animations.
 
-## 🌐 Live Demo
+## 📸 Visual Preview
 
-Experience the simulation directly in your web browser:
-👉 **[Launch Live Simulation](https://nilyma0n.github.io/Dynamic-Landscape-Weather-Simulator/)**
+Below is a snapshot of the native desktop application rendering the village environment:
+
+![Simulation Snapshot](assets/scenario.jpg)
 
 ## 🚀 Key Features
 
@@ -18,12 +19,12 @@ Experience the simulation directly in your web browser:
 ## 🛠️ Technical Stack
 
 *   **Language:** C++ (ISO/IEC 14882)
-*   **Graphics Driver:** Borland Graphics Interface (BGI) compiled to WebAssembly via Emscripten.
+*   **Graphics Driver:** Borland Graphics Interface (BGI) via `<graphics.h>`
 *   **Math Engine:** Trigonometric functions via `<math.h>` for wave simulation and phase tracking.
 
 ## ⌨️ Interactive Controls
 
-Focus the live window and use the following keys to manipulate the simulation:
+Run the application locally and use the following keyboard keys to manipulate the live environment:
 *   `s` : Switch weather mode to **Sunny**
 *   `r` : Switch weather mode to **Rain**
 *   `c` : Switch weather mode to **Cloudy / Snow**
@@ -31,7 +32,7 @@ Focus the live window and use the following keys to manipulate the simulation:
 
 ## 🔧 Local Installation & Setup
 
-If you wish to compile and run this code locally as a desktop application, you must use a compiler configured for the vintage 32-bit BGI graphics framework.
+To compile and run this code locally as a desktop application, you must use an IDE configured for the vintage 32-bit BGI graphics framework.
 
 ### Recommended IDEs
 *   **Code::Blocks** (configured with the `WinBGIm` package)
